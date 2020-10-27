@@ -103,6 +103,14 @@ a:focus, a:hover {
   color: #fff;
 }
 
+.yellow{
+  color: #fdf703;
+}
+
+.white{
+  color: #ffffff;
+}
+
 .form-control {
   background-color: #2f383d;
   border-radius: 0;
@@ -276,7 +284,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 @media (max-width: 480px) {
@@ -1019,7 +1027,7 @@ a:focus, a:hover {
 
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: black;
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -1065,14 +1073,14 @@ a:focus, a:hover {
 }
 
 .portfolio-block .caption h4 a {
-  color: #555;
+  color: #fdf703;
 }
 
 .portfolio-block .caption .search-icon {
   background: #fdf703;
   width: 50px;
   height: 50px;
-  color: #fff;
+  color: #000000;
   display: inline-block;
   font-size: 20px;
   border-radius: 30px;
@@ -1087,10 +1095,11 @@ a:focus, a:hover {
 ==================================================================*/
 .service-block {
   padding: 60px 20px;
-  border-left: 1px solid #fdf703;
-  border-top: 1px solid #fdf703;
+  border-left: 3px solid #fdf703;
+  border-top: 3px solid #fdf703;
+  border-bottom: 3px solid #fdf703;
+  border-right: 3px solid #fdf703;
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px #fdf703, 13px 13px 0 #fdf703;
 }
 
 .service-block .service-icon {
